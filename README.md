@@ -1,5 +1,28 @@
 # ks_MeshCore_PlatformIO_v17
 
+## 31/10/2026:
+
+### OK:
+  - Create a new Variant MKE_S3_plus:
+    - Test `env:MKE_s3_plus_repeater`:
+      - Build upload OK
+      - setup over USB UART-CH343P OK
+        ```
+        set radio 920.250,250.0,11,5
+
+        password 12345678
+
+        advert
+        ```
+        <details>
+
+        ![MKE_s3_repeater_001_Setup](MKE_s3_repeater_001_Setup.png)
+        ![MKE_s3_repeater_002_app_Setup](MKE_s3_repeater_002_app_Setup.png)
+        ![MKE_s3_repeater_003_app_login](MKE_s3_repeater_003_app_login.png)
+        ![MKE_s3_repeater_004_app_login_OK](MKE_s3_repeater_004_app_login_OK.png)
+        ![MKE_s3_repeater_005_app_COMMAND](MKE_s3_repeater_005_app_COMMAND.png)
+        </details>
+
 ## 30/10/2026:
 
 ### OK:
